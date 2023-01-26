@@ -1,0 +1,71 @@
+:root {
+    --primary: #ffbf00;
+}
+
+body {
+    margin: 0;
+}
+
+.navig {
+    background-color: var(--primary);
+    /*padding: 2rem;*/
+}
+
+.navig div {
+    font-style: oblique;
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+}
+
+.main {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    background-color: var(--primary);
+    padding: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+footer {
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer div {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer p {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
